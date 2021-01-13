@@ -1,1 +1,43 @@
+@font-face{
+    font-family: 'Robotto-Bold';
+    Src: url("Assets/font/Roboto-Bold.ttf"); 
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Robotto-Medium';
+    Src: url("Assets/font/Roboto-Medium.ttf"); 
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'Robotto-Regular';
+    Src: url("Assets/font/Roboto-Regular.ttf"); 
+    font-weight: 400;
+}
 
+
+
+
+body{
+    background-color: rgb(66, 187, 187);
+    width: 1600px;
+    margin:auto;
+    font-family: Robotto-Bold;
+}
+header{
+    position:absolute;
+}
+.your-life{
+    background-image: url("Assets/bgimage.png");
+    height: 744px;
+    color: #FFFFFF;
+    
+    
+}
+h2{
+    text-transform: uppercase;
+    margin:0;
+    text-align: center;
+    font-size: 64px;
+    padding-top: 241px;
+    letter-spacing: 4.5px;
+}
